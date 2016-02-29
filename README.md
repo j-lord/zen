@@ -16,7 +16,7 @@ sudo chmod u+x zen.sh
 3. If using Mac OS
 You'll be ready to execute.
 ```bash 
-./zen.sh
+sudo ./zen.sh
 ```
 ![Alt text](/../screenshots/zenExample5.jpg?raw=true "Zen Example")
 ![Alt text](/../screenshots/zenExample2.jpg?raw=true "Zen Example")
@@ -28,7 +28,7 @@ Open zen.sh comment out the last chuck of code for osascript instructions and pi
 
 5. Then you should be ready to execute.
 ```bash 
-./zen.sh
+sudo ./zen.sh
 ```
 
 ### License
