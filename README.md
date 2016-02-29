@@ -11,7 +11,7 @@ sudo wget https://github.com/j-lord/zen/raw/master/zen.sh
 ````
 2. Make script executable
 ```bash 
-chmod u+x zen.sh
+sudo chmod u+x zen.sh
 ```
 3. If using Mac OS
 You'll be ready to execute.
