@@ -31,7 +31,7 @@ Open zen.sh comment out the last chuck of code for osascript instructions and pi
 ./zen.sh
 ```
 
-## License
+### License
 
 ### The MIT License (MIT)
 
