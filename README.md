@@ -18,7 +18,11 @@ You'll be ready to exacute.
 ```bash 
 ./zen.sh
 ```
-![Alt text](/../screenshots/zenExample1.jpg?raw=true "Optional Title")
+![Alt anything](/../screenshots/zenExample1.jpg?raw=true "Zen Example")
+![Alt text](/../screenshots/zenExample2.jpg?raw=true "Zen Example")
+![Alt text](/../screenshots/zenExample3.jpg?raw=true "Zen Example")
+![Alt text](/../screenshots/zenExample4.jpg?raw=true "Zen Example")
+![Alt anything](/../screenshots/zenExample5.jpg?raw=true "Zen Example")
 
 
 4. If on PC or Linux
