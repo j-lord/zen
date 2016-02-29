@@ -2,7 +2,7 @@
 Zen Messenger
 Zen puts the thought into being thoughtful 
 
-## Instillation Procedure 
+### Instillation Procedure 
 
 1. Download the script
 ```bash 
@@ -19,7 +19,7 @@ You'll be ready to exacute.
 4. If on PC or Linux
 Open zen.sh comment out the last chuck of code for osascript instructions and pick a messaging technique. 
 
-# Future Plans 
+### Future Plans 
 1. Seperate PC and Mac version. 
 2. Larger message database that makes sense for any combination of messages. 
 3. Mobile applicaiton 
