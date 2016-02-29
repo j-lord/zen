@@ -1,6 +1,5 @@
 # Zen
-Zen Messenger
-Zen puts the thought into being thoughtful 
+Zen messenger puts the thought into being thoughtful 
 
 ### Instillation Procedure 
 
