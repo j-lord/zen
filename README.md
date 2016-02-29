@@ -30,3 +30,9 @@ Open zen.sh comment out the last chuck of code for osascript instructions and pi
 ```bash 
 ./zen.sh
 ```
+
+## License
+
+### The MIT License (MIT)
+
+Copyright (C) 2016 ~ Jaysin Lord ~ hello@fortlord.io
