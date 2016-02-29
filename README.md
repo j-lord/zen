@@ -5,11 +5,11 @@ Script should be run at random times to express thoughtfulness and consideration
 
 ### Instillation Procedure 
 
-1. Download the script
+1. Download script
 ```bash 
 sudo wget https://github.com/j-lord/zen/raw/master/zen.sh
 ````
-2. Make the script executable
+2. Make script executable
 ```bash 
 chmod u+x zen.sh
 ```
