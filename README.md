@@ -7,7 +7,7 @@ Script should be run at random times to express thoughtfulness and consideration
 
 1. Download the script
 ```bash 
-sudo wget https://github.com/j-lord/zen/master/zen.sh
+sudo wget https://github.com/j-lord/zen/raw/master/zen.sh
 ````
 2. Make the script executable
 ```bash 
