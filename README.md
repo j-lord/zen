@@ -18,7 +18,7 @@ You'll be ready to exacute.
 ```bash 
 ./zen.sh
 ```
-[Mac](zenExample1)
+[[https://github.com/j-lord/zen/master/img/zenExample1.jpg|alt=octocat]]
 
 
 4. If on PC or Linux
