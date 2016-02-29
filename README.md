@@ -18,7 +18,7 @@ You'll be ready to exacute.
 ```bash 
 ./zen.sh
 ```
-[[https://github.com/j-lord/zen/master/zenExample1.jpg|alt=octocat]]
+![Alt text](/../screenshots/zenExample1.jpg?raw=true "Optional Title")
 
 
 4. If on PC or Linux
