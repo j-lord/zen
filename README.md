@@ -2,7 +2,7 @@
 Zen Messenger
 Zen puts the thought into being thoughtful 
 
-# Instillation Procedure 
+## Instillation Procedure 
 
 1. Download the script
 ```bash 
