@@ -18,6 +18,8 @@ You'll be ready to exacute.
 ```bash 
 ./zen.sh
 ```
+[Mac](zenExample1)
+
 
 4. If on PC or Linux
 Open zen.sh comment out the last chuck of code for osascript instructions and pick a messaging technique. 
