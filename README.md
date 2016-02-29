@@ -1,7 +1,7 @@
 # Zen
 Zen messenger randomly constructs **random** messages to **random** people in **random** groups. 
 
-Script should be run at random times as to show thoughtfulness and consideration. 
+Script should be run at random times to express thoughtfulness and consideration. 
 
 ### Instillation Procedure 
 
