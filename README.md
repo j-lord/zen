@@ -14,7 +14,10 @@ sudo wget https://github.com/j-lord/zen/raw/master/zen.sh
 chmod u+x zen.sh
 ```
 3. If using Mac OS
-You'll be ready to exacute. 
+You'll be ready to exacute.
+```bash 
+./zen.sh
+```
 
 4. If on PC or Linux
 Open zen.sh comment out the last chuck of code for osascript instructions and pick a messaging technique. 
