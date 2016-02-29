@@ -1,4 +1,4 @@
-# zen
+# Zen
 Zen Messenger
 Zen puts the thought into being thoughtful 
 
@@ -20,6 +20,6 @@ You'll be ready to exacute.
 Open zen.sh comment out the last chuck of code for osascript instructions and pick a messaging technique. 
 
 # Future Plans 
-Seperate PC and Mac version. 
-Larger message database that makes sense for any combination of messages. 
-Mobile applicaiton 
+1. Seperate PC and Mac version. 
+2. Larger message database that makes sense for any combination of messages. 
+3. Mobile applicaiton 
