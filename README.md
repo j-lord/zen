@@ -1,7 +1,7 @@
 # Zen
 Zen messenger randomly constructs **random** messages to **random** people in **random** groups. 
 
-Script should be run at random times to express thoughtfulness and consideration. 
+Script should be run at random times to express thoughtfulness and consideration towards loved ones. 
 
 ### Instillation Procedure 
 
@@ -14,7 +14,7 @@ sudo wget https://github.com/j-lord/zen/raw/master/zen.sh
 chmod u+x zen.sh
 ```
 3. If using Mac OS
-You'll be ready to exacute.
+You'll be ready to execute.
 ```bash 
 ./zen.sh
 ```
@@ -23,6 +23,10 @@ You'll be ready to exacute.
 ![Alt text](/../screenshots/zenExample3.jpg?raw=true "Zen Example")
 ![Alt text](/../screenshots/zenExample4.jpg?raw=true "Zen Example")
 
-
-4. If on PC or Linux
+4. If PC or Linux
 Open zen.sh comment out the last chuck of code for osascript instructions and pick a messaging technique. 
+
+5. Then you should be ready to execute.
+```bash 
+./zen.sh
+```
