@@ -23,10 +23,14 @@ sudo ./zen.sh
 ![Alt text](/../screenshots/zenExample3.jpg?raw=true "Zen Example")
 ![Alt text](/../screenshots/zenExample4.jpg?raw=true "Zen Example")
 
-4. If PC or Linux
+4. If Linux
 Open zen.sh comment out the last chuck of code for osascript instructions and pick a messaging technique. 
 
-5. Then you should be ready to execute.
+5. If PC
+Throw away your computer and buy a mac or Linux box!
+
+
+6. Then you should be ready to execute.
 ```bash 
 sudo ./zen.sh
 ```
