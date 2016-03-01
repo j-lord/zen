@@ -27,8 +27,7 @@ sudo ./zen.sh
 Open zen.sh comment out the last chuck of code for osascript instructions and pick a messaging technique. 
 
 5. If PC
-Throw away your computer and buy a mac or Linux box!
-
+Throw away your computer and buy a mac or Linux box ; )
 
 6. Then you should be ready to execute.
 ```bash 
