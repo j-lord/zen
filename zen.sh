@@ -74,7 +74,7 @@ hourNow="$(date +%H)";
 # to avoid this, remove the leading zero using parameter expansion.
 hourNow=${hourNow#0}
 
-# add all time depended variable here
+# add all time depended variables here
 if (( hourNow >= 6 ))  && (( hourNow < 12 )); then
     time_of_day="morning";	HHH="have";	GGG="is"; TTT="tonight";
  
