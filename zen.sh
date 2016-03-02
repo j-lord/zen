@@ -107,35 +107,33 @@ messageCode=$target_group;
 # generate message beginning and ending
 # wanted to simply state beginning=$[ $RANDOM % ${#random_group[@]} ];
 # but I was unable to find an elegant solution to a bash-type 2D array
-if   [ $messageCode -eq 0 ]; then
-	
-	begining=$[ $RANDOM % ${#ladies_start[@]} ];      
-	endning=$[ $RANDOM % ${#ladies_end[@]} ];
-	# assigns begining/ending index
 
-	random_beginning=${ladies_start[$begining]};
-	random_ending=${ladies_end[$endning]};
-	# assigns begining/ending message
-
-elif [ $messageCode -eq 1 ]; then 
-
-	begining=$[ $RANDOM % ${#family_start[@]} ];      
-	endning=$[ $RANDOM % ${#family_end[@]} ];
-
-	random_beginning=${family_start[$begining]};
-	random_ending=${family_end[$endning]};
-
-elif [ $messageCode -eq 2 ]; then 
-
-	begining=$[ $RANDOM % ${#mates_start[@]} ];      
-	endning=$[ $RANDOM % ${#mates_end[@]} ];
-
-	random_beginning=${mates_start[$begining]};
-	random_ending=${mates_end[$endning]};
-else 
-	echo "Error!"
-	echo "Make sure you really have ${number_of_groups} groups?"
-fi
+case $messageCode in  # case (group number) in all
+	0) 
+			begining=$[ $RANDOM % ${#ladies_start[@]} ];      
+			endning=$[ $RANDOM % ${#ladies_end[@]} ];
+			# assigns begining/ending index
+			random_beginning=${ladies_start[$begining]};
+			random_ending=${ladies_end[$endning]};
+			# assigns begining/ending messages
+			;;
+	1) 
+			begining=$[ $RANDOM % ${#family_start[@]} ];      
+			endning=$[ $RANDOM % ${#family_end[@]} ];
+			random_beginning=${family_start[$begining]};
+			random_ending=${family_end[$endning]};
+			;;
+	2)
+			begining=$[ $RANDOM % ${#mates_start[@]} ];      
+			endning=$[ $RANDOM % ${#mates_end[@]} ];
+			random_beginning=${mates_start[$begining]};
+			random_ending=${mates_end[$endning]};
+			;; 
+     *)
+			echo "Error!"
+			echo "Make sure you really have ${number_of_groups} groups?"
+			;;
+esac
 
 sentence="${random_beginning} ${random_ending}" 
 #the space between beginning ^ and ending puts the space between the two 
