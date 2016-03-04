@@ -81,7 +81,7 @@ if (( hourNow >= 6 ))  && (( hourNow < 12 )); then
   elif (( hourNow >= 12 )) && (( hourNow <= 17 )); then 
     time_of_day="afternoon";HHH="are having"; GGG="is going"; TTT="later";
 
-  elif (( hourNow >= 17 )) && (( hourNow <= 0 )); then 
+  elif (( hourNow >= 17 )) && (( hourNow <= 24 )); then 
     time_of_day="evening";  HHH="had"; 	GGG="has been"; TTT="";
 fi
 # this assumes no messages will be sent from 12 midnight to 6:00 am
@@ -89,10 +89,10 @@ fi
 # Will be working on building a larger message database
 ladies_start=( "Good $time_of_day" "Hey $name" "What's up $name," 
 	"I've been thinking about you all $time_of_day," "Just wanted to tell you" 
-	"I just texted to say" )
+	"I just texted to say" "Good $time_of_day love,")
 ladies_end=( "I miss you." "I hope that you ${HHH} a great day." 
 	"I hope that your day ${GGG} great." "you're really great, I hope you know that." 
-	"I can't wait to see you." )
+	"I can't wait to see you." "you have a way of making me smile no matter what." "you're beautiful.")
 family_start=( "Good $time_of_day" "Hey $name" "I've been meaning to call you" )
 family_end=( "I hope all has been well at home." 
 	"I will be home later next month love you." "let's talk sometime next week, are you free any time?" )
