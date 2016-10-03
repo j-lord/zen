@@ -4,8 +4,9 @@ Zen messenger randomly constructs **random** messages to **random** people in **
 Script should be run at random times to express thoughtfulness and consideration towards loved ones. 
 
 ### Instillation Procedure 
-
 1. Open terminal 
+
+
 ![Alt text](/../screenshots/Terminal.jpg?raw=true "Termainal Window")
 
 
