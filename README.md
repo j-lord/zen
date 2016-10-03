@@ -6,7 +6,6 @@ Script should be run at random times to express thoughtfulness and consideration
 ### Instillation Procedure 
 
 1. Open terminal 
-![Alt text](/../screenshots/Terminal.jpg?raw=true "Termainal Window")
 
 2. Fork Repository
 ```bash 
