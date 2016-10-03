@@ -12,10 +12,12 @@ Script should be run at random times to express thoughtfulness and consideration
 ```bash 
 sudo wget https://github.com/j-lord/zen/raw/master/zen.sh
 ````
+
 3. Make script executable
 ```bash 
 sudo chmod u+x zen.sh
 ```
+
 4. If using Mac OS
 You'll be ready to execute.
 ```bash 
