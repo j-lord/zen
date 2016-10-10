@@ -142,11 +142,14 @@ sentence="${random_beginning} ${random_ending}"
 
 ########## The Following Takes advantage of Apple's osascript ##########
 #### This will work only if you are on a mac and logged into your iCloud account 
- osascript <<EOD
+osascript <<EOD
+ tell application "Finder"
+ 	activate
 		(display dialog "To: $name $number \n $sentence" ¬
 			with title "Zen" ¬
 			buttons {"Send", "ReDo", "Nah"} ¬
 			default button 1)
+ end tell
 		if result = {button returned:"Send"} then 
 			tell application "Messages"
 				send "$sentence" to buddy "$number" of (service 1 whose service type is iMessage)
@@ -160,6 +163,7 @@ sentence="${random_beginning} ${random_ending}"
 			giving up after 2)
 		end if
 EOD
+
 
 ######################################################################
 
