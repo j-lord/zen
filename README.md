@@ -17,7 +17,7 @@ sudo wget https://github.com/j-lord/zen/raw/master/zen.sh
 ```bash 
 curl -LOk https://github.com/j-lord/zen/raw/master/zen.sh
 ````
-...then install [Homebrew](http://brew.sh) and [wget](http://stackoverflow.com/a/17094214).
+...eventually you'll want to install [Homebrew](http://brew.sh) and [wget](http://stackoverflow.com/a/17094214).
 
 - Make script executable
 ```bash 
