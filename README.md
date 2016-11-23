@@ -3,12 +3,11 @@ Zen messenger randomly constructs **random** messages to **random** people in **
 
 Script should be run at random times to express thoughtfulness and consideration towards loved ones. 
 
-### Instillation Procedure 
+### Quick Install Procedure 
 1. Open terminal 
 
 
 ![Alt text](/../screenshots/Terminal.jpg?raw=true "Termainal Window")
-
 
 - Fork Repository
 ```bash 
@@ -16,7 +15,7 @@ sudo wget https://github.com/j-lord/zen/raw/master/zen.sh
 ````
 - If you don't have wget installed, use curl. 
 ```bash 
-curl https://github.com/j-lord/zen/raw/master/zen.sh
+curl -LOk https://github.com/j-lord/zen/raw/master/zen.sh
 ````
 ...then install [Homebrew](http://brew.sh) and [wget](http://stackoverflow.com/a/17094214).
 
@@ -24,7 +23,6 @@ curl https://github.com/j-lord/zen/raw/master/zen.sh
 ```bash 
 sudo chmod u+x zen.sh
 ```
-
 
 - If using Mac OS
 You'll be ready to execute.
