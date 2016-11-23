@@ -14,6 +14,11 @@ Script should be run at random times to express thoughtfulness and consideration
 ```bash 
 sudo wget https://github.com/j-lord/zen/raw/master/zen.sh
 ````
+- If you don't have wget installed, use curl. 
+```bash 
+curl https://github.com/j-lord/zen/raw/master/zen.sh
+````
+...then install [Homebrew](http://brew.sh) and [wget](http://stackoverflow.com/a/17094214).
 
 - Make script executable
 ```bash 
