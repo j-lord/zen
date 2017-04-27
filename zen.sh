@@ -1,22 +1,22 @@
-#####################################################################
-# * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - * #
-                              																		
-          ####     ####		Stay calm, Remain relaxed,  						 
-         ######   ######				Keep ZEN		  				 
-        ######## ########									  	
-        #################  									  
-        #################									  
-          ###############									  
-           #############										 
-             ##########  	This script was crafted using the    
-              ########				  finest Itanian leather  
-                ######										  
-                 ####				           ... and love	  
-                   ##										  
-                    #										  
-                     #										  
+#####################################################################                                                                                                  
+# * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - * #                                                                                                  
 
-# * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - * #
+          ####     ####         Stay calm, Remain relaxed,
+         ######   ######                                Keep ZEN
+        ######## ########
+        #################
+        #################
+          ###############
+           #############
+             ##########         This script was crafted using the
+              ########                            finest Itanian leather
+                ######
+                 ####                                      ... and love
+                   ##
+                    #
+                     #
+
+# * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - * #                                                                                                  
 #####################################################################
 # If on Mac, change MY_NUMBER, group names, and group numbers. 
 # make file exacutable  
@@ -135,30 +135,36 @@ esac
 sentence="${random_beginning} ${random_ending}" 
 #the space between beginning ^ and ending puts the space between the two 
 # parts of the sentences this is by far the most important space to have ever existed. 
-##################################################################
+
+# this gets the current directory that the script is working in                                                                                                                           
+dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd):zen.png"
+# this says take directory name dir replace all occurances (//) of (/) with                                                                                                               
+dir=${dir////:}
+##################################################################                                                                                                                        
 
 ########## The Following Takes advantage of Apple's osascript ##########
-#### This will work only if you are on a mac and logged into your iCloud account 
-osascript <<EOD
+#### This will work only if you are on a mac and logged into your iCloud account
+osascript <<EOD                                                                                                                                                                           
  tell application "Finder"
- 	activate
-		(display dialog "To: $name $number \n $sentence" ¬
-			with title "Zen" ¬
-			buttons {"Send", "ReDo", "Nah"} ¬
-			default button 1)
+        activate
+                (display dialog "To: $name $number \n $sentence" ¬
+                        with title "Zen" ¬
+                        with icon file "$dir" ¬
+                        buttons {"Send", "ReDo", "Nah"} ¬
+                        default button 1)
  end tell
-		if result = {button returned:"Send"} then 
-			tell application "Messages"
-				send "$sentence" to buddy "$number" of (service 1 whose service type is iMessage)
-			end tell
-		else if result = {button returned:"ReDo"} then 
-			do shell script "./$scriptName ~"
-		else 
-			(display dialog "Message Canceled" ¬
-			with title "Zen" ¬
-			buttons {"OK"} ¬
-			giving up after 2)
-		end if
+                if result = {button returned:"Send"} then
+                        tell application "Messages"
+                                send "$sentence" to buddy "$number" of (service 1 whose service type is iMessage)
+                        end tell
+                else if result = {button returned:"ReDo"} then
+                        do shell script "./$scriptName ~"
+                else
+                        (display dialog "Message Canceled" ¬
+                        with title "Zen" ¬
+                        buttons {"OK"} ¬
+                        giving up after 2)
+                end if
 EOD
 
 
