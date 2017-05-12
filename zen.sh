@@ -167,6 +167,8 @@ osascript <<EOD
                 end if
 EOD
 
+# silences the exacution error that occurs when reDo is hit 
+eval >&/dev/null
 
 ######################################################################
 
