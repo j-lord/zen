@@ -136,9 +136,9 @@ sentence="${random_beginning} ${random_ending}"
 #the space between beginning ^ and ending puts the space between the two 
 # parts of the sentences this is by far the most important space to have ever existed. 
 
-# this gets the current directory that the script is working in                                                                                                                           
+# this gets the current directory that the icon is located in                                                                                                  
 dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd):zen.png"
-# this says take directory name dir replace all occurances (//) of (/) with                                                                                                               
+# this says take directory name dir replace all occurances of (//) with (/)                                                                                    
 dir=${dir////:}
 ##################################################################                                                                                                                        
 
