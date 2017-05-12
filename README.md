@@ -33,10 +33,6 @@ sudo ./zen.sh
 ![Alt text](/../screenshots/zen2.png?raw=true "Zen Example")
 ![Alt text](/../screenshots/zen3.png?raw=true "Zen Example")
 ![Alt text](/../screenshots/zen4.png?raw=true "Zen Example")
-![Alt text](/../screenshots/zenExample5.jpg?raw=true "Zen Example")
-![Alt text](/../screenshots/zenExample2.jpg?raw=true "Zen Example")
-![Alt text](/../screenshots/zenExample3.jpg?raw=true "Zen Example")
-![Alt text](/../screenshots/zenExample4.jpg?raw=true "Zen Example")
 
 1. If Linux
 Open zen.sh comment out the last chuck of code for osascript instructions and pick a messaging technique. 
