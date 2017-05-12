@@ -29,7 +29,6 @@ You'll be ready to execute.
 ```bash 
 sudo ./zen.sh
 ```
-![Alt text](/../screenshots/zen1.jpg?raw=true "Zen Example")
 ![Alt text](/../screenshots/zenExample5.jpg?raw=true "Zen Example")
 ![Alt text](/../screenshots/zenExample2.jpg?raw=true "Zen Example")
 ![Alt text](/../screenshots/zenExample3.jpg?raw=true "Zen Example")
