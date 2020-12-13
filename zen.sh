@@ -22,7 +22,7 @@
 # make file exacutable  
 
 #!/bin/bash
-MY_NUMBER="+13334567777"
+MY_NUMBER="+13334567778"
 scriptName=zen.sh
 #
 # GROUPS, NAMES, and NUMBERS (like a sudo map)
